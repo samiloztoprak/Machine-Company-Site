@@ -1,0 +1,275 @@
+﻿<%@ Master Language="C#"  AutoEventWireup="true" Debug="false" CodeBehind="Site.master.cs" Inherits="DalliMakina.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="tr">
+<head runat="server">
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header-grid-container">
+            <div class="logo-grid">
+                <img class="logo" src="img/logo.png" />
+                <img class="mobil-logo" src="img/mobil-logo.png" />
+
+            </div>
+            <div class="menu-header-grid">
+                <div class="top-menu-header-container">
+                    <div class="top-menu-header-contact-grid">
+                        <ol>
+                            <li>
+                                <img src="img/phone-icon.png" /> : (0322) 394 3061
+                            </li>
+                            <li>
+                                <img src="img/mail-icon.png" /> : info@dallimakina.com
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="top-menu-header-social-grid">
+                        <ol>
+                            <li>
+                                <a href="facebook.com">
+                                    <img src="img/facebook.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="linkedin.com">
+                                    <img src="img/linkedin.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="instagram.com">
+                                    <img src="img/instagram.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="youtube.com">
+                                    <img src="img/youtube.png" />
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="menu-header-container">
+                    <div class="menu-header-menu-grid">
+                        <div class="menu">
+                            <ol>
+                                <li>
+                                    <a href="<%= link[0] %>">
+                                    <asp:Label ID="mtxt1" runat="server" Text="Label"></asp:Label>
+                                    </a></li>
+                                <li>
+                                    <a href="<%= link[1] %>">
+                                    <asp:Label ID="mtxt2" runat="server" Text="Label"></asp:Label>
+                                    </a></li>
+                                <li>
+                                    <a onclick="productsDropDownMenu()" class="product-button" href="#">
+                                    <asp:Label ID="mtxt3" runat="server" Text="Label"></asp:Label>
+                                    </a><div id="myDropdown" class="dropdown-content">
+                                            <div class="dropdown-content-container">
+                                                <div class="dropdown-content-grid">
+                                                    <%= kategoriHtml %>
+                                                    <%--<a href="#" onload="productsDropDownMenuItem('item-1','item-1-button')" onclick="productsDropDownMenuItem('item-1','item-1-button')" class="item-1-button">TAM OTOMATİK ÇEKME DOĞRULTMA VE KESME MAKİNELERİ</a>
+                                                    <a href="#" onclick="productsDropDownMenuItem('item-2','item-2-button')" class="item-2-button">ÇEKME MAKİNELERİ</a>
+                                                    <a href="#" onclick="productsDropDownMenuItem('item-3','item-3-button')" class="item-3-button">DOĞRULTMA VE KESME MAKİNELERİ</a>
+                                                    <a href="#" onclick="productsDropDownMenuItem('item-4','item-4-button')" class="item-4-button">GALVANİZ HATTI MAKİNELERİ</a>
+                                                    <a href="#" onclick="productsDropDownMenuItem('item-5','item-5-button')" class="item-5-button">GİYOTİN ÇUBUK KESME MAKİNELERİ</a>
+                                                    <a href="#" onclick="productsDropDownMenuItem('item-6','item-6-button')" class="item-6-button">UÇ KAYNAK MAKİNELERİ</a>
+                                                    <a href="#" onclick="productsDropDownMenuItem('item-7','item-7-button')" class="item-7-button">NERVÜR TABAKLAR</a>--%>
+                                                </div>
+                                                <%--<div id="item-1" class="dropdown-content-product-list-container">
+                                                    <div class="dropdown-content-product-list-grid-header"><div class="menu-grid-header">Tam Otomatik Çekme Kesme ve Doğrultma Makinesi</div></div>
+                                                    <div class="dropdown-content-product-list-grid">
+                                                        <a href="#" ><img src="content-img/deneme_makine.png" />
+                                                        DMI 250</a>
+                                                    </div>
+                                                </div>--%>
+                                                <%= urunHtml %>
+                                                
+                                            </div>
+                                        </div>
+                                </li>
+                                <li>
+                                    <a href="<%= link[3] %>">
+                                    <asp:Label ID="mtxt4" runat="server" Text="Label"></asp:Label>
+                                    </a></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="menu-header-search-grid">
+                        <div class="search">
+                            <a href="#"><img src="img/search.png"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <div class="cart">
+       <a href="#">
+            <img src="img/cart.gif" />
+       </a>
+    </div>
+    <div class="foother">
+        <div class="foother-container">
+            <div class="foother-container-item">
+                <div class="foother-container-item-container-1">
+                    <div><%--About
+                        <ol>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Sertificas</a>
+                            </li>
+                            <li>
+                                <a href="#">News From Us</a>
+                            </li>
+                        </ol>--%>
+                        <%= footherBaslik[0].ToUpper() %>
+                        <%= footherIcerik[0] %>
+                    </div>
+                    <div><%--Site Term
+                        <ol>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="#">Cookie Policy</a>
+                            </li>
+                        </ol>--%>
+                        <%= footherBaslik[1].ToUpper() %>
+                        <%= footherIcerik[1] %>
+                    </div>
+                </div>
+                <div class="foother-container-item-container-2">
+                    <div><%--Support
+                        <ol>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">User Manual</a>
+                            </li>
+                            <li>
+                                <a href="#">Where to Buy</a>
+                            </li>
+                        </ol>--%>
+                        <%= footherBaslik[2].ToUpper() %>
+                        <%= footherIcerik[2] %>
+                    </div>
+                    <div><%--Social
+                        <ol>
+                            <li>
+                                <a href="#"><img src="img/facebook-icon.png" />Facebook</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/linkedin-icon.png" />Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/instagram-icon.png" />Instagram</a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/youtube-icon.png" />Youtube</a>
+                            </li>
+                        </ol>--%>
+                        <%= footherBaslik[3].ToUpper() %>
+                        <%= footherIcerik[3] %>
+                    </div>
+                </div>
+                <div class="foother-container-item-container-3">
+                    <div><%--Company
+                        <p>
+                            Hacı Sabancı Organize Sanayi Bölgesi Doğu Sanayi Sitesi Acıdere Mah. 6706 Sk. No:7/C Sarıçam / ADANA / TÜRKİYE
+                        </p>
+                        <p>
+                            (0322) 394 30 61
+                        </p>
+                        <p>
+                            info@dallimakina.com
+                            dallimakina@hotmail.com
+                        </p>--%>
+                        <%= footherBaslik[4].ToUpper() %>
+                        <%= footherIcerik[4] %>
+                    </div>
+                </div>
+                <div class="foother-container-item-container-4">
+                    <div>
+                        <%= footherIcerik[5] %>
+                        <%--<img src="img/foother-logo.png" />--%>
+                    </div>
+                    <div class="subscribe"><%--Abone ol
+                        <p>
+                            Get the latest news and deals from dallımakina
+                            <input id="subscribeTextBox" type="text" />
+                        </p>--%>
+                        <%= footherBaslik[6].ToUpper() %>
+                        <p><%= footherIcerik[6] %></p>
+                    </div>
+                </div>
+            </div>
+            <div class="foother-container-item-bottom-description">
+                <%= footherIcerik[7].ToUpper() %><%--Copyright © 2019 Dallı Makina San. Ltd. Şit.--%>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        var menuitemclass;
+        var itemid;
+
+        function productsDropDownMenu() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        function productsDropDownMenuItem(item,itemclass) {
+            document.getElementById(item).classList.toggle("product-list-show");
+            
+            menuitemclass = itemclass;
+            itemid = item;
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.product-button')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches(menuitemclass)) {
+                var dropdowns = document.getElementsByClassName("dropdown-content-product-list-container"); 
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.id != itemid) {
+
+                        if (openDropdown.classList.contains('product-list-show')) {
+                            openDropdown.classList.remove('product-list-show');
+                        }
+                    }
+                }
+            }  
+        }
+        
+
+     </script>
+</body>
+</html>

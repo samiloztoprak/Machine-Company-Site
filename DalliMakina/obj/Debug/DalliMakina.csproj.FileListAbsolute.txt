@@ -1,0 +1,57 @@
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\DalliMakina.dll.config
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\DalliMakina.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\DalliMakina.pdb
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\csc.exe
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\csc.exe.config
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\csc.rsp
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\csi.exe
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\csi.rsp
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\System.AppContext.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\System.Collections.Immutable.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\System.IO.FileSystem.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\System.Reflection.Metadata.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\vbc.exe
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\vbc.exe.config
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\vbc.rsp
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\VBCSCompiler.exe
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\roslyn\VBCSCompiler.exe.config
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Antlr3.Runtime.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\AspNet.ScriptManager.bootstrap.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\AspNet.ScriptManager.jQuery.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.Web.Infrastructure.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Newtonsoft.Json.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\System.Web.Optimization.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\WebGrease.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\System.Web.Optimization.xml
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Newtonsoft.Json.xml
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Antlr3.Runtime.pdb
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\tr\System.Web.Optimization.resources.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\bin\tr\Microsoft.AspNet.FriendlyUrls.resources.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\obj\Debug\DalliMakina.csprojAssemblyReference.cache
+F:\Web Projeleri\DalliMakina\DalliMakina\obj\Debug\DalliMakina.csproj.CoreCompileInputs.cache
+F:\Web Projeleri\DalliMakina\DalliMakina\obj\Debug\DalliMakina.csproj.CopyComplete
+F:\Web Projeleri\DalliMakina\DalliMakina\obj\Debug\DalliMakina.dll
+F:\Web Projeleri\DalliMakina\DalliMakina\obj\Debug\DalliMakina.pdb
+F:\Dallı Makina Site\DalliMakina\DalliMakina\obj\Debug\DalliMakina.csprojAssemblyReference.cache
+F:\Dallı Makina Site\DalliMakina\DalliMakina\obj\Debug\DalliMakina.csproj.CoreCompileInputs.cache
+F:\Dallı Makina Site\DalliMakina\DalliMakina\obj\Debug\DalliMakina.dll
+F:\Dallı Makina Site\DalliMakina\DalliMakina\obj\Debug\DalliMakina.pdb
